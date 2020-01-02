@@ -1,0 +1,6 @@
+before_script:
+  - ./install.sh
+
+script:
+  - kubectl -h
+
