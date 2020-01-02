@@ -1,5 +1,5 @@
 before_script:
-  - ./install.sh
+  - sudo ./install.sh
 
 script:
   - kubectl -h
