@@ -1,4 +1,5 @@
 before_script:
+  - ls
   - sudo ./install.sh
 
 script:
