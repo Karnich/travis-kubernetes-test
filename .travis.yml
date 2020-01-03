@@ -11,5 +11,5 @@ before_script:
   - echo "$KUBE_CONFIG" | base64 --decode > ${HOME}/.kube/config
 
 script:
-  - kubectl config get-contexts
+  - kubectl get pods
 
